@@ -1,0 +1,41 @@
+body {
+    background: #dcdedd!important;
+}
+
+.container {
+    background-color: #e5e5e6;
+}
+
+.list {
+    border: 1px solid #808680;
+    border-radius: 10px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.todo-element {
+    color: #007bff;
+}
+
+.todo-element:hover {
+    cursor: pointer;
+    color: #005fc5;
+    text-decoration: underline;
+    transition: all 0.8s ease-in-out;
+}
+
+.done-element {
+    color: #28a745;
+    text-decoration: line-through;
+}
+
+.done-element:hover {
+    cursor: pointer;
+    color: #1a8833;
+    text-decoration: none;
+    transition: all 0.8s ease-in-out;
+}
